@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1220px;
+}
+
+.header-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-nav ul li a{
+    transition: 0.3s ease-in-out;
+}
+
+.header-nav ul li a:hover{
+    color: #FF7A50;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.header-btn {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+.left h1{
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    color: #363853;
+    margin-top: 213px;
+}
+
+.main1_text{
+    font-family: Rubik;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+    color: #FF7A50;
+}
+
+.left{
+    width: 530px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.left p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+}
+
+.header-btn2 {
+    width: 163px;
+    height: 50px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+
+.header-btn2:hover {
+    background-color: #fff;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+.main1{
+    display: flex;
+}
+
+.right img{
+    width: 700px;
+    margin-top: 97px;
+}
+
+.line1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.line1 a{
+    text-decoration: underline;
+    color: #363853;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+}
+
+
+.right2 h2{
+   font-family: Rubik;
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 50px;
+   color: #363853;
+}
+
+.main2_text{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #FF7A50;
+}
+
+.right2{
+    width: 400px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 95px;
+    margin-top: 192px;
+    margin-left: 137px;
+}
+
+.right2 p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+}
+
+.header-btn3 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #ffff;
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.header-btn3:hover {
+    background-color: #fff;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+.main2{
+    display: flex;
+    margin-top: 80px;
+}
+
+.main3_text{
+    font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #363853;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.textm{
+     font-family: Rubik;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FF7A50;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.card{
+    width: 361px;
+    height: 417px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.card__title{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+    margin-left: 22px;
+}
+
+.p_main{
+    font-family: Rubik;
+font-size: 15px;
+font-weight: 300;
+
+
+
+}
+
+.top_text{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 6px;
+}
+
+.main3_btn{
+    width: 79px;
+   height: 33px;
+   background-color: #FF7A50;
+   transition: 0.3s ease-in-out;
+   border: none;
+   margin-left: 30px;
+   border-radius: 20px 20px 0px 20px;
+}
+
+.main3_btn:hover{
+    background-color: black;
+    color: #FF7A50;
+   
+}
+
+.left4{
+    width: 538px;
+}
+
+.left4 h2{
+    font-family: Rubik;
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+color: #363853;
+margin-top: 281px;
+}
+
+.main4_text{
+    font-family: Rubik;
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+color: #FF7A50;
+}
+
+.left4 p{
+    font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: #363853;
+margin-top: 30px;
+
+}
+
+.img4{
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.main4{
+    display: flex;
+}
+
+.right4 img{
+    margin-top: 162px;
+    margin-left: 20px;
+}
+
+.block{
+    width: 1170px;
+height: 312px;
+border-radius: 15px;
+background-color: #FF7A50;
+margin-top: 110px;
+margin-bottom: 182px;
+}
+
+.block h2{
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 500;
+line-height: 47.4px;
+text-align: center;
+color: white;
+padding-top: 59px;
+}
+
+input{
+    width: 838.5px;
+height: 78px;
+top: 3156.45px;
+left: 303.75px;
+border-radius: 70px;
+border: none;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #363853;
+padding-left: 43px;
+margin-top: 72px;
+margin-left: 165px;
+}
+
+.footer_form{
+    position: relative;
+}
+
+.footer_form button{
+    position: absolute;
+    bottom: 10px;
+    right: 180px;
+   
+   
+}
+
+.footer_btn{
+    width: 191.1px;
+height: 58.5px;
+border-radius: 70px;
+background-color: #FF7A50;
+color: white;
+border: none;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+transition: 0.3s ease-in-out;
+}
+
+.footer_btn:hover{
+    background-color: white;
+    color: #FF7A50;
+    border: 2px solid #FF7A50;
+}
+
+
